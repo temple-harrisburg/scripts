@@ -1,3 +1,12 @@
+// Render a composition multiple times while replacing text in a selected text box with lines from a text file
+// Example: 
+//     You want to render a lower thirds for each subject in a series of interviews.
+//     1. Create a text file with each subject's name on a separate line.
+//     2. Create the composition for the lower thirds, taking note of the name of the text box that will hold the subject's name.
+//     3. Run the script
+//     4. Select the composition, the text box, and the text file created in step (1).
+// 
+
 var project = app.project;
 var composition = project.activeItem;
 var textbox;
