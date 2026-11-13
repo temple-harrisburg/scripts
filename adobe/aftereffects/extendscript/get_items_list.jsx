@@ -1,3 +1,4 @@
+// Export a list of all items in the current After Effects project as a comma-separated values (CSV) file.
 var file = File.saveDialog("Where to save the items list");
 file.open("w"); //open in 'write' mode
 file.writeln("index,id,name");
